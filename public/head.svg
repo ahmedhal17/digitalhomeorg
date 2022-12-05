@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="107px" height="107px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 332 331"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:url(#id0)}
+    .fil2 {fill:url(#id1)}
+    .fil0 {fill:url(#id2)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="304.881" y1="214.988" x2="133.093" y2="295.537">
+   <stop offset="0" style="stop-opacity:1; stop-color:#6BCEFF"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#8A3CFF"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="247.358" y1="156.9" x2="331.672" y2="125.725">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FC8E5E"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FF71FF"/>
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="35.2688" y1="197.717" x2="212.51" y2="6.60467">
+   <stop offset="0" style="stop-opacity:1; stop-color:#F95063"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FFDC57"/>
+  </linearGradient>
+ </defs>
+ <g id="Plan_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1754927838928">
+   <path class="fil0" d="M306 214c33,-35 33,-91 -1,-125l-3 -3 0 0 -13 -13 -5 -4 0 0 -42 -43c-35,-35 -92,-35 -126,0l-109 108c-9,10 -9,26 0,36l28 28c10,9 26,9 36,0l108 -109 63 63 64 62z"/>
+   <path class="fil1" d="M133 296l28 28c10,9 26,9 35,0l109 -109c0,0 1,-1 1,-1l0 0 -64 -62c-2,2 -5,4 -7,7l-102 101c-10,10 -10,26 0,36z"/>
+   <path class="fil2" d="M306 214c8,-9 14,-18 18,-27l0 -1c0,0 0,-1 1,-1 0,0 0,-1 0,-1l0 0c25,-67 -25,-101 -65,-140 -3,-2 -4,-5 -7,-6 10,15 16,29 16,51 0,21 -11,47 -27,63l64 62z"/>
+  </g>
+ </g>
+</svg>
