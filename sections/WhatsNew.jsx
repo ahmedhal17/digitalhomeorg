@@ -1,20 +1,21 @@
+/* eslint-disable react/jsx-no-useless-fragment */
+
 'use client';
 
 import { motion } from 'framer-motion';
 
+import { useRouter } from 'next/router';
 import styles from '../styles';
-import { newFeatures } from '../constants';
 import { NewFeatures, TitleText, TypingText } from '../components';
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
-import { useRouter } from 'next/router';
 import { en, fr, ar } from '../translation';
 
-function WhatsNew() {
+const WhatsNew = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === 'en' ? en : locale === 'fr' ? fr : ar;
   return (
-    <section className={`${styles.paddings} relative z-10`} id="whatsnew">
+    <section className={`${styles.paddings} relative z-10 overflow-hidden`} id="whatsnew">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -55,6 +56,6 @@ function WhatsNew() {
       </motion.div>
     </section>
   );
-}
+};
 
 export default WhatsNew;

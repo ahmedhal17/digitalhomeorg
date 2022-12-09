@@ -1,18 +1,18 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { useRouter } from 'next/router';
 import { TypingText } from '../components';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
-import { useRouter } from 'next/router';
 import { en, fr, ar } from '../translation';
 
-function About() {
+const About = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === 'en' ? en : locale === 'fr' ? fr : ar;
   return (
-    <section className={`${styles.paddings} relative z-10`} id="about">
+    <section className={`${styles.paddings} relative z-10 `} id="about">
       <div className="gradient-02 z-0" />
       <motion.div
         variants={staggerContainer}
@@ -37,10 +37,10 @@ function About() {
           src="/arrow-down.svg"
           alt="arrow down"
           className="w-[18px] h-[28px] object-contain mt-[28px]"
-        ></motion.img>
+        />
       </motion.div>
     </section>
   );
-}
+};
 
 export default About;

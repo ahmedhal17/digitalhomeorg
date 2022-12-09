@@ -1,21 +1,21 @@
 'use client';
+
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useRouter } from 'next/router';
 import styles from '../styles';
 import { ExploreCard, TitleText, TypingText } from '../components';
 import { staggerContainer } from '../utils/motion';
-import { exploreProducts } from '../constants';
-import { useRouter } from 'next/router';
 import { en, fr, ar } from '../translation';
 
-function Explore() {
+const Explore = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === 'en' ? en : locale === 'fr' ? fr : ar;
   const [active, setActive] = useState('product-2');
 
   return (
-    <section className={`${styles.paddings}`} id="explore">
+    <section className={`${styles.paddings} `} id="explore">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -25,11 +25,11 @@ function Explore() {
       >
         <TypingText title={t.catalogue} textStyles="text-center" />
         <TitleText
-          title={
-            <>
+          title={(
+            <div>
               {t.onestop} <br className="md:block hidden" /> {t.onesupplier}
-            </>
-          }
+            </div>
+          )}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
@@ -72,6 +72,6 @@ function Explore() {
       </motion.div>
     </section>
   );
-}
+};
 
 export default Explore;

@@ -21,6 +21,7 @@ const Navbar = () => {
       initial="hidden"
       whileInView="show"
       className={`${styles.xPaddings} py-8 relative`}
+      id="nav"
     >
       <div className="absolute w-[50%] inset-0 gradient-01 z-0" />
       <div
